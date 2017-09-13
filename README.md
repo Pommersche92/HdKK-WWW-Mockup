@@ -1,0 +1,1 @@
+# Website Mockup für die neue Homepage des HdKK
