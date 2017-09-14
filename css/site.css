@@ -47,15 +47,15 @@ header .btn {
 }
 
 
-/*@media only screen and (max-width: 30em) {
-	.container {
-		width: 100%;
-		box-shadow: none;
-	}
+i.large {
+    font-size: 6rem;
 }
-
-@media only screen and (min-width: 30.1em) and (max-width: 48em) {
-	.container {
-		width: 80%;
-	}
-}*/
+i.medium {
+    font-size: 4rem;
+}
+i.small {
+    font-size: 2rem;
+}
+i.tiny {
+    font-size: 1rem;
+}
