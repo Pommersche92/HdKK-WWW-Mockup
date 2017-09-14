@@ -21,6 +21,13 @@ header .btn {
 	position: absolute;
 	bottom: 100px;
 	margin-left: -50px;
+	background-color:rgba(134, 0, 132, .8);
+	color:whitesmoke;
+}
+
+header .btn:hover {
+	background-color:rgba(134, 0, 132, 1);
+	color:whitesmoke;
 }
 
 .container {
