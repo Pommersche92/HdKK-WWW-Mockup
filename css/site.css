@@ -1,4 +1,37 @@
-﻿body {
+body {
 	margin:0px;
 	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width:36rem;
+	max-width:550px;
+	padding-right:15px;
+	padding-left:15px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	color:#282828;
+	z-index:1;
+	border-radius:3px;
+	box-shadow:0 0 10px 0 rgba(40,40,40,0.3);
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+
+@media only screen and (max-width: 30em) {
+	.container {
+		width:100%;
+		box-shadow:none;
+	}
+}
+
+@media only screen and (min-width: 30.1em) and (max-width: 48em) {
+	.container {
+		width:80%;
+	}
 }
