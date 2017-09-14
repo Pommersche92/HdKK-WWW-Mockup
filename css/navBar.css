@@ -16,8 +16,10 @@
     font-size: 17px;
 }
 
+.topnav a.menuButton {}
+
 /* Style the logo (left) inside the navigation bar */
-.topnav img.logoLeft {
+.topnav a img.logoLeft {
     float: left;
     display: block;
     text-align: center;
@@ -25,7 +27,7 @@
 }
 
 /* Style the logo (left) inside the navigation bar */
-.topnav img.logoRight {
+.topnav a img.logoRight {
     float: right;
     display: block;
     text-align: center;
