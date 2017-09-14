@@ -1,51 +1,83 @@
 body {
-	margin:0px;
+	margin: 0px;
 	font-family: 'Roboto', sans-serif;
 }
 
 header {
-    height: 100vh;
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url('/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+	background-attachment: scroll;
+	background-image: url('/img/header-bg.jpg');
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 10px 15px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.btn-xl {
+	padding: 20px 40px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #3cb371;
+	border-color: #3cb371;
+	border-radius: 3px;
+	text-transform: uppercase;
+	/*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 .container {
-	width:36rem;
-	max-width:550px;
-	padding-right:15px;
-	padding-left:15px;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#fff;
-	color:#282828;
-	z-index:1;
-	border-radius:3px;
-	box-shadow:0 0 10px 0 rgba(40,40,40,0.3);
-	-webkit-transition:.5s;
-	-moz-transition:.5s;
-	-ms-transition:.5s;
-	-o-transition:.5s;
-	transition:.5s;
+	width: 50rem;
+	max-width: 550px;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	color: #282828;
+	z-index: 1;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
 }
 
 @media only screen and (max-width: 30em) {
 	.container {
-		width:100%;
-		box-shadow:none;
+		width: 100%;
+		box-shadow: none;
 	}
 }
 
 @media only screen and (min-width: 30.1em) and (max-width: 48em) {
 	.container {
-		width:80%;
+		width: 80%;
 	}
 }
