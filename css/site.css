@@ -3,6 +3,20 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+header {
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('/img/header-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .container {
 	width:36rem;
 	max-width:550px;
