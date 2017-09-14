@@ -8,7 +8,7 @@ header {
 	text-align: center;
 	color: #fff;
 	background-attachment: scroll;
-	background-image: url('/img/header-bg.jpg');
+	background-image: url('../img/header-bg.jpg');
 	background-position: center center;
 	background-repeat: none;
 	-webkit-background-size: cover;
@@ -18,7 +18,9 @@ header {
 }
 
 header .btn {
-	margin-top: 90vh;
+	position: absolute;
+	bottom: 50px;
+	margin-left: -50px;
 }
 
 .container {
@@ -39,6 +41,9 @@ header .btn {
 	-ms-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
+}
+.container p{
+	text-align: center;
 }
 
 
