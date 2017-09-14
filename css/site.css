@@ -45,7 +45,9 @@ header .btn {
 .container p{
 	text-align: center;
 }
-
+.row {
+	display: initial;
+}
 
 i.large {
     font-size: 6rem;
