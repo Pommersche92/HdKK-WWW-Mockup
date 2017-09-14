@@ -6,7 +6,7 @@
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a.menuItem {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -34,7 +34,7 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a.menuItem:hover {
     background-color: #ddd;
     color: black;
 }
@@ -46,7 +46,7 @@
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a.menuItem:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -61,7 +61,7 @@
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .topnav.responsive a.menuItem {
     float: none;
     display: block;
     text-align: left;
