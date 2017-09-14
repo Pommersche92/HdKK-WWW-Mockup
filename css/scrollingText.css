@@ -1,8 +1,7 @@
 .scrollingContainer {
  height: 50px;	
  overflow: hidden;
- /*position: relative;*/
- background-color: rgba(134, 0, 132, 0));
+ background-color: rgba(134, 0, 132, .7));
  padding: 16px;
  position: fixed; /* Set the navbar to fixed position */
  bottom: 0; /* Position the navbar at the top of the page */
